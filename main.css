@@ -8,7 +8,7 @@ body {
 }
 
 #product-overview {
-  background: #ff1b68;
+  background: url("freedom.jpg");
   width: 100%;
   height: 528px;
   padding: 10px;
@@ -84,7 +84,7 @@ body {
   border-radius: 8px;
 }
 
-.main-nav__item--cta a:hover, 
+.main-nav__item--cta a:hover,
 .main-nav__item--cta a:active {
   color: #ff1b68,
   background: white;

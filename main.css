@@ -26,6 +26,9 @@
 #product-overview h1 {
   color: white;
   font-family: 'Anton', sans-serif;
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
 }
 
 .plan_list {

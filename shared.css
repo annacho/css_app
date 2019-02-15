@@ -136,6 +136,17 @@ main {
   border: none;
 }
 
+/* Need to revisit code later */
+@media (min-width: 40rem) {
+  .toggle-button {
+    display: none;
+  }
+
+  .main-nav {
+    display: flex;
+  }
+}
+
 .main-footer {
   background: black;
   padding: 2rem;
@@ -146,12 +157,13 @@ main {
   list-style: none;
   margin: 0;
   padding: 0;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main-footer__link {
-  display: inline-block;
-  margin: 0 1rem;
+  margin: 0.5rem 0;
 }
 
 .main-footer_link a {
@@ -225,4 +237,16 @@ main {
 
 .open {
   display: block !important;
+}
+
+/* Added for video purposes; need to revisit */
+@media (min-width: 40rem) {
+  .main-footer_link {
+    margin: 0 1rem;
+  }
+
+  .main-footer__links {
+    flex-direction: row;
+    justitfy-content: center;
+  }
 }
